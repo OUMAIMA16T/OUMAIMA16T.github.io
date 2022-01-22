@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+::selection { 
+	background: #159FCF; }
+
+html {
+	scroll-behavior: smooth;
+}
+body{
+	background-color: #000;
+}
+
+
+/* -------------
+    SCROLL BAR
+  ------------- */
+
+  ::-webkit-scrollbar-track {
+	background-color: #000;
+    border-left: 2px solid #000;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #000;
+    ;	
+	background-image: -webkit-linear-gradient(0deg,
+                                            #159FCF 0%,
+											  transparent 100%,
+											  rgba(255, 255, 255, .0) 0%,
+											  rgba(255, 255, 255, .0) 100%,
+											  transparent 75%,
+											  transparent)
+}
+/* HEADER STYLING */
+.sectionHeader {
+	height: 60px;
+	font-size: 2.125em;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	background: rgb(21,159,207);
+	background: linear-gradient(55deg, rgba(21,159,207,1) 0%, rgba(0,0,0,1) 40%, rgba(0,0,0,1) 60%, rgba(21,159,207,1) 100%);
+	line-height: 40px;
+	padding-top: 1em;
+	padding-bottom: 2em;
+	margin-top: -0em;
+   }
+
+   @media(max-width: 767px){
+		.sectionHeader {
+			font-size: 1.25em;
+			padding-bottom: 2.5em;
+		}
+   }
+

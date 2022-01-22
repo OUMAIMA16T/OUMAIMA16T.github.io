@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
+
+.green {
+    color:#00752C;
+}
+
+.header #video-background {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 120%;
+    max-height: 110vh;
+	width: auto;
+	height: 110vw;
+	z-index: -100; 
+}
+.header .header-container {
+    border-radius: 1%;
+    background-color: #000;
+    background: rgba(255, 255, 255, 1);
+    width: 66vw;
+    height: 75vh;
+    margin-top: 6.5em;
+    margin-bottom: 2.8em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em .5em;
+}
+.header .h1-large {
+	color: #00752C;
+    width: 90%;
+	font-size: 3.7rem;
+	line-height: 3.2rem;
+    text-align: center;
+    margin-bottom: 0em;
+    margin-top: .3rem;
+}
+.header .h4-normal {
+    margin: 2em 0;
+    font-size: 0.9rem;
+    width: 70%;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.header-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 0;
+}
+
+.gif {
+    zoom: 75%;
+    border-radius: 2%;
+    margin: 0;
+}
+
+.btn-solid-lg {
+	display: inline-block;
+	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
+	border: 1px solid #000;
+	border-radius: 4px;
+	background-color: #00752C;
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 0.75rem;
+	line-height: 0;
+	text-decoration: none;
+	transition: all 0.2s;
+    letter-spacing: 1px;
+}
+.btn-solid-lg:hover {
+	background-color: #BFE9CF;
+	color: #00752C; /* needs to stay here because of the color property of a tag */
+	text-decoration: none;
+}
+
+    
+/* -----------------------
+    HEADER - query
+    --------------------- */
+
+    @media (max-width:920px) {
+        .header #video-background {
+            height: 120vh;
+            min-height: 120vh;
+            max-height: 120vh;
+        }
+        .header .header-container {
+            height: 75vh;
+            width: 80vw;
+            margin-top: 6em;
+            margin-bottom: 1.5em;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .gif {
+            margin-top: -4.4em;
+            zoom: 45%;
+        }
+        .header .header-content {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .header-info {
+            margin: 0;
+        }
+        .header .h1-large {
+            width: 100%;
+	        font-size: 1.5rem;
+        	line-height: 1.5rem;
+            margin-bottom: 1em;
+            margin-top: 0em;
+        }
+        .header .h4-normal {
+            width: 100%;
+            margin-top: .5em;
+            font-size: 1em;
+        }
+        .btn-solid-lg {
+            display: inline-block;
+            font-weight: 500;
+            font-family:Arial, Helvetica, sans-serif;
+            padding: 1em 2em;
+            font-family: 'Roboto Slab', serif;
+            text-transform: uppercase;
+	        line-height:normal;
+            margin-top: -1.5em;
+        }
+        .btn2 {
+            display: none;
+        }
+    }

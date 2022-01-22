@@ -1,0 +1,36 @@
+.gallery-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    align-items: left;
+}
+
+.gallery-image {
+    display:block;
+    overflow:hidden;
+    margin: 0 auto;
+    width: 33.33%;
+    max-width: 33.33vw;
+    height: auto;
+    max-height: 320px;
+    margin: 0;
+    transition: 0.2s linear;
+}
+
+.gallery-image:hover{
+    transform:scale(0.91);
+    cursor: pointer;
+  }
+
+@media(max-width: 900px) {
+    .gallery-content {
+        margin: 1em 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .gallery-image {
+        width: 100vh;
+        max-width: 90vw;
+        height: auto;
+    }
+}

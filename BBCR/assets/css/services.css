@@ -1,0 +1,151 @@
+#service {
+  background-color: #000;
+}
+
+
+.section-lead {
+    background-color: #fff;
+    font-weight: 500;
+    width: 50%;
+    font-size: 1.2em;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.3;
+    color: #000;
+    margin-top: 2em;
+    padding: 1em 2em;
+    border-radius: 5px;
+    border: 2px solid #159FCF;
+  }
+  
+  .service a {
+    text-decoration: none;
+    margin: 1rem 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.8125rem;
+    letter-spacing: 1px;
+  }
+  
+  .service p {
+    font-size: 0.9rem;
+    margin: 1rem 0;
+    line-height: 1.5;
+  }
+  
+
+  .service a {
+    color: #159FCF;
+    display: block;
+  }
+  
+  .service h4 {
+    font-family: inherit;
+    font-weight: 500;
+    color: #159FCF;
+    font-size: 1.3rem;
+    margin: 1rem 0 0.6rem;
+  }
+  
+  .services-grid {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .service {
+    background-color: #fff;
+    color: #000;
+    margin: 1.2em .5em;
+    padding: 1em;
+    border-radius: 5px;
+    text-align: center;
+    -webkit-box-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #159FCF;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    box-shadow: -9px 12px 20px 3px rgba(0,0,0,0.75);
+      -webkit-box-shadow: -9px 12px 20px 3px rgba(0,0,0,0.75);
+      -moz-box-shadow: -9px 12px 20px 3px rgba(0,0,0,0.75);
+  }
+  
+  .service:hover {
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+  }
+  
+  .service i {
+    font-size: 3.45rem;
+    margin: 1rem 0;
+  }
+  
+  .service1 i,
+  .service1 h4,
+  .service1 .cta {
+    color: #159FCF;
+  }
+  
+  .service1:hover {
+    border: 2px solid #159FCF;
+  }
+  
+  .service2 i,
+  .service2 h4,
+  .service2 .cta {
+    color: #159FCF;
+  }
+  
+  .service2:hover {
+    border: 2px solid #159FCF;
+  }
+  
+  .service3 i,
+  .service3 h4,
+  .service3 .cta {
+    color: #159FCF;
+  }
+  
+  .service3:hover {
+    border: 2px solid #159FCF;
+  }
+  
+  .service .cta span {
+    font-size: 0.6rem;
+  }
+  
+  .service > * {
+    flex: 1 1 100%;
+  }
+  
+  .service .cta {
+    align-self: flex-end;
+  }
+  
+  @media (max-width:600px) {
+    .services-grid {
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+    }
+    .section-lead {
+        font-size: 1em;
+        width: 90%;
+        text-align: center;
+        margin: 2em auto;
+        padding: 1em 1.4em;
+    }
+    .service {
+      padding: .5em;
+      margin: 1em 2em;
+    }
+  }
