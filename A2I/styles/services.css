@@ -1,0 +1,129 @@
+.section-lead {
+    font-weight: 500;
+    width: 50%;
+    font-size: 1.5em;
+    padding-top: 2em; 
+    padding-bottom: 2em; 
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.6;
+  }
+
+  .service h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #FF4500;
+    font-size: 1.3rem;
+    margin: 1rem 0 0.6rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  
+  .services-grid {
+    display: -webkit-box;
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+  
+  .service {
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    -webkit-box-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #FF4500;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    box-shadow: -9px 12px 20px 3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -9px 12px 20px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -9px 12px 20px 3px rgba(0,0,0,0.75);
+    transform: scale(1);
+    transition: 150ms;
+  }
+  
+  .service:hover {
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+    transform: scale(0.9);
+  }
+  
+  .service i {
+    font-size: 3.45rem;
+    margin: 1rem 0;
+  }
+  
+  .service1 i,
+  .service1 h4,
+  .service1 .cta {
+    color: #FF4500;
+  }
+  
+  .service1:hover {
+    border: 2px solid #FF4500;
+  }
+  
+  .service2 i,
+  .service2 h4,
+  .service2 .cta {
+    color: #FF4500;
+  }
+  
+  .service2:hover {
+    border: 2px solid #FF4500;
+  }
+  
+  .service3 i,
+  .service3 h4,
+  .service3 .cta {
+    color: #FF4500;
+  }
+  
+  .service3:hover {
+    border: 2px solid #FF4500;
+  }
+  
+  .service .cta span {
+    font-size: 0.6rem;
+  }
+  
+  .service > * {
+    flex: 1 1 100%;
+  }
+  
+  .service .cta {
+    align-self: flex-end;
+  }
+  
+  @media (max-width:600px) {
+    .services-grid {
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+    }
+    .section-lead {
+        width: 100%;
+        text-align: left;
+        margin: 0;
+        padding: 1.5em;
+    }
+  }
+
+
+.services-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    object-fit: cover;
+}
