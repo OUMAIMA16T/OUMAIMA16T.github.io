@@ -1,0 +1,50 @@
+/* MOBILE */
+.leaderRed{
+    color: #7c0a02;
+    font-size:1.1em;
+}
+.leaderTitle {
+    text-align: center;
+    border-bottom: 2px solid #c8c8c8;
+    padding: 1.5em;
+}
+
+.leaderContainer {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.leaderItem {
+    text-align: center;
+    padding: 2em;
+    border-bottom: 2px solid #c8c8c8;
+    border-left: 2px solid #c8c8c8;
+
+}
+.leaderItem i {
+    font-size: 5em;
+    padding: 0.5em;
+    color: #7c0a02;
+}
+
+.specialBTN {
+    margin-bottom: 1em;
+}
+
+
+
+@media (max-width: 768px) {
+    .leaderLastItem {
+        border-bottom: none;
+    }
+}
+
+
+/* DESKTOP */
+@media (min-width:801px) {
+    .leaderContainer {
+        flex-direction: row;
+
+    }
+}

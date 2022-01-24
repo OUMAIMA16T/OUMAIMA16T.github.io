@@ -1,0 +1,57 @@
+.topBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+    color: #fff;
+    background-color: #420d09;
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    margin-top: 0em;
+    z-index: 999;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.topPhoneNumber a {
+    font-size: 1.2em;
+    color: #fff;
+    text-decoration: none;
+}
+.topPhoneNumber a:hover {
+    color: #000;
+}
+
+
+.topSocialMedias a{
+    color: #fff;   
+    font-size: 1.5em;
+}
+
+.topSocialMedias a:hover {
+    color: #000;
+}
+
+.topLocation a{
+    text-decoration: none;
+    color: #fff;
+}
+.topLocation a:hover{
+    color: #000;
+}
+
+.topContact a {
+    color: #fff;
+    text-decoration: none;
+}
+.topContact a:hover{
+    color: #000;
+}
+
+@media (max-width:920px) {
+    .topBar{
+        display: none;
+    }
+}

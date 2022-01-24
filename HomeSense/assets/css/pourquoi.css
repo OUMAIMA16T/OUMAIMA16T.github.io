@@ -1,0 +1,32 @@
+/* -----------------------
+    POURQUOI HomeSense ? SECTION  :
+   ----------------------- */
+
+#pourquoi{
+    background-color: #C9C9C9;
+}
+ 
+.far {
+    font-size: 3em;
+    color: #420d09;
+}
+
+.pourquoi-content {
+    color: rgb(0, 0, 0);
+    font-size: 1.125em;
+    text-align: left;
+    padding: 2em;
+    /* margin: .5em auto; */
+}
+
+@media(min-width: 600px) {
+    .pourquoi-content {
+        width: 50%;
+        margin: 0 auto;
+        /* padding: .65em; */
+    }
+    .pourquoi-content p {
+        padding: 0;
+    }
+}
+

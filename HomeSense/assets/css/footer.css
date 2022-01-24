@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Ultra&display=swap');
+
+#footer {
+    font-family:"Dancing Script", sans-serif;
+}
+/*FOOTER*/
+.footer{
+    background-color: #420d09;
+    color: #fff;
+    width:100%;
+    display:flex;
+    align-items:top;
+    padding:5rem 0;
+}
+    
+.footer section{
+    padding:1rem 2rem;
+    width:100%;
+    vertical-align:top;
+}
+    
+.footer section h3{
+    color:#fff;
+}
+    
+.footer section a{
+    color:#fff;
+    display:flex;
+    align-items:center;
+    white-space:nowrap;
+    margin:15px 0;
+}
+    
+.footer section a:hover{
+    color: #000;
+}
+
+.footer section:nth-child(2) a:before,.footer section:nth-child(3) a:before{
+    content:"";
+    font-family:"FontAwesome";
+    margin-right:5px;
+    color:#fff;
+}
+    
+.footer section a span{
+    margin:0 10px;
+}
+    
+.sub-footer{
+    background-color:#420d09;
+    text-align:Center;
+    color: #fff;
+    padding:1rem 0;
+}
+    
+@media (max-width:1020px){
+    .footer{
+        display:block;
+    }
+    .footer section{
+        padding:1rem 1rem;
+    }
+    .footer section:nth-child(2), .footer section:nth-child(3){
+        width:49%;
+        display:inline-block;
+    }
+    
+}

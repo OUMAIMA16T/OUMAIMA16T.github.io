@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie');
+
+
+/* -------------------
+    DEFAULT SETTINGS :
+   ------------------- */
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    /* height: 3000px; */
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* -------------------
+    SELECTION COLOR :
+   ------------------- */
+*::selection {    
+    background: #0cadad;
+}
+
+/* -------------
+     FEATURES  :
+   ------------- */
+
+/* SCROLL TO TOP */
+#myBtn {
+    display: none;
+    position: fixed; 
+    bottom: 30px; 
+    right: 15px; 
+    z-index: 99; 
+    outline: none; 
+    background-color: #7c0a02; 
+    color: white; 
+    border: 2px solid black;
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 45%; 
+    font-size: 18px; 
+    border: 1px solid white;
+  }
+  
+  #myBtn:hover {
+    background-color: #000; 
+  }
+@media(max-width: 600px) {
+    #back2Top {
+        display: none;
+        position: absolute;
+        z-index: -1;
+    }
+}
+
+/* -------------
+    SCROLL BAR
+  ------------- */
+::-webkit-scrollbar-track {
+	background-color: #000;
+    border-left: 2px solid #000;
+}
+::-webkit-scrollbar {
+	width: 10px;
+	background-color: #000;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #000;
+    ;	
+	background-image: -webkit-linear-gradient(0deg,
+                                            #7c0a02 0%,
+											  transparent 100%,
+											  rgba(255, 255, 255, .0) 0%,
+											  rgba(255, 255, 255, .0) 100%,
+											  transparent 75%,
+											  transparent)
+}
+
+
+
+
+/* -----------------
+    SECTION HEADERS
+  ----------------- */
+.seven h1 {
+    text-align: center;
+    font-size:30px; font-weight:300; color:#222; letter-spacing:1px;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+    margin-top: .5em;
+    color: #fff;
+}
+    
+.seven h1:after,.seven h1:before {
+    content: " ";
+    display: block;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    height: 5px;
+    background-color:#fff;
+}
+
+.sectionHeader {
+    background: rgb(66,13,9);
+    background: radial-gradient(circle, rgba(66,13,9,1) 39%, rgba(124,10,2,1) 100%);
+    color: #fff;
+    text-align: center;
+    padding: .75em;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+/* -----------------------
+    CALL TO ACTION BUTTONS
+  ------------------------ */
+button:hover {
+    transform: scale(0.8);
+    transition: .5s;
+}
+button {
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    font-family: 'Reenie Beanie', cursive;
+    transition: .2s;
+    color: #fff;
+    margin: 1em auto;
+    margin-bottom: 0;
+}
+.btn-style {
+    height: 70px;
+    width: 250px;
+    border: none;
+    border-radius: 40px;
+    font-size: 32px;
+    background: linear-gradient(to left, #420d09, #7c0a02);
+    border: 2px solid white;
+
+}

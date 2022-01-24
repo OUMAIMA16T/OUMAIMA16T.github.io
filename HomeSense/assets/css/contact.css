@@ -1,0 +1,97 @@
+#contact {
+    background-color: #fff;
+}
+
+.container-contact1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.contactText {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.contactImage {
+    width: 80%;
+    margin: 3em .5em;
+}
+
+#input-message {
+    width: 45%;
+    display: inline-block;
+}
+
+
+#input-message,
+.inputForm{
+    border: 2px solid #a4a4a4;
+
+}
+
+.inputForm:hover,
+#input-message:hover,
+.inputForm:focus,
+#input-message:focus{
+    border: 2px solid #7c0a02;
+}
+
+.cf {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputForm {
+    font-size: 1.1em;
+    display: block;
+    margin: .5em auto;
+    width: 100%;
+    text-align: left;
+    padding: 1em;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#input-message {
+    width: 44vw;
+    padding: 2em 1em;
+    border-radius: 25px;
+    display: block;
+    margin: .5em auto;
+    text-align: center;
+}
+
+.contactBtn {
+    display: block;
+    margin: 0 auto;
+}
+
+.iMaps {
+    width: 99vw;
+    height: 30vh;
+}
+
+@media(max-width:767px) {
+    .contactImage {
+        width: 94%;
+    }
+    .container-contact1 {
+        flex-direction: column;
+    }
+    .inputForm {
+        font-size: .8em;
+        width: 90%;
+        margin: .5em auto;
+    }
+    #input-message {
+        width: 90vw;
+        margin: 1em auto;
+        display: block;
+        padding: 2em;
+        border-radius: 25px;
+        margin: .5em auto;
+    }
+}

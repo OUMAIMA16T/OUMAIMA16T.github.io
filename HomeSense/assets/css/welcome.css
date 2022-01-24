@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
+
+#welcome {
+    background-color: 	#7c0a02;
+    padding-bottom: 2em;
+}
+.sectionTitle{
+    margin-top: 1em;
+    padding-top: 1em;
+}
+.welcomeContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.welcomeText {
+    color: #fff;
+    width: 90%;
+    font-family: 'Montserrat', Courier, monospace;
+    font-weight: 400;
+    font-size: 1.6em;
+    text-align: center;
+    padding: 0 1.5em;
+    margin: .5em 1.7em;
+    padding: 0 2em;
+}
+
+.welcomeImage {
+    max-width: 100%;
+    min-width: 40vw;
+    object-fit: cover;
+    border: 7px solid #fff;
+    padding: 7px;
+}
+
+@media (max-width: 732px) {
+    .welcomeText { 
+        width: 100%;
+        font-size: 1.1em;
+        margin: 0;
+       padding: 0 .75em;
+
+    }
+    .welcomeContainer {
+        flex-direction: column;
+    }
+    .welcomeImage {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 2em;
+    }
+}
