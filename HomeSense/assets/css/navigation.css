@@ -35,17 +35,17 @@ nav .navbar {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   margin: auto;
-  padding: 0 50px;
+  padding: 0 30px;
 } 
 
 .navbar .logo a {
   font-family: 'Russo One', sans-serif;
-  font-size: 30px;
+  font-size: 24px;
   color: #fff;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
 }
 .navbar .logo a:hover {
   color: #000;
@@ -63,8 +63,8 @@ nav .navbar .links{
 nav .navbar .links li{
   position: relative;
   display: flex;
-  align-items: flex-start;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
   list-style: none;
   padding: 0 14px;
 }
